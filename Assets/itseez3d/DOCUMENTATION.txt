@@ -1,0 +1,37 @@
+AVATAR MAKER UNITY PLUGIN
+
+Avatar Maker it is an Editor extension plugin that  generates a 3D avatar from one selfie photo. You can use an existing 
+photo or make a new one with a web-camera right from the Unity Editor, and Avatar Maker will instantly turn it into a 
+photorealistic 3D avatar. This avatar can be animated by tracking head movements and facial expressions in a video from 
+your web camera. The plugin works only in the Unity Edit mode and cannot be used in Play mode or standalone applications.
+
+Key features of the Avatar Maker:
+* Automatic generation of a color 3D face model from a single portrait photo.
+* 45 predefined hairstyles
+* 62 blendshapes support a wide range of facial expressions
+* Pro-version of the plugin allows creating a prefab from a customized avatar to use it in other Unity scenes and export it into FBX or OBJ file formats
+* Realtime avatar animation from video.
+* Pro-version of the plugin allows to record tracked movements into animation clip file.
+
+
+To get started with the plugin please follow these steps:
+* Import the plugin into an existing Unity project
+* Open Window -> Avatar Maker -> Avatars
+* In the opened window press “Select photo” to generate an avatar from an existing selfie or press “Web Camera” to take a new photo
+* Once the plugin loads a photo, wait about 5-10 seconds while the avatar is being calculated
+* The generated avatar with a randomly chosen hairstyle will be placed into the opened scene
+* You can select this avatar in the “Hierarchy” panel to change the hairstyle or customize the blendshapes
+
+To animate avatar  follow these steps: 
+* Add the generated avatar to the Unity scene.
+* Open Window -> Avatar Maker -> Facial Motion Capture
+* Connect web camera to your PC.
+* Press “Start Capturing” button.
+* Look into the camera, avatar will mimic your face. 
+* If you need to record animation, just press “Start recording” button.
+
+
+System requirements:
+* The plugin works on Windows 7, 8 or 10 64-bit
+* Intel or AMD processor with AVX instruction set support. Intel Core i5, i7 or Xeon CPUs newer than 2012 are strongly suggested
+* 2Gb of RAM available
